@@ -1,0 +1,33 @@
+/* .button-utama{
+    background: linear-gradient(180deg, #FF7400 0%, rgba(255, 160, 81, 0.5) 100%);
+} */
+.button-utama:hover{
+    background: transparent;
+    color: #FF7400;
+    border: 1px solid #FF7400;
+}
+.button-utama-transparent{
+    background: transparent;
+    color: #FF7400;
+    border: 1px solid #FF7400;
+}
+.button-utama-transparent:hover{
+    background: linear-gradient(180deg, #FF7400 0%, rgba(255, 160, 81, 0.5) 100%);
+    color: white;
+}
+.poppins {
+    font-family: 'Poppins';
+}
+.urbanist {
+    font-family: 'Urbanist';
+}
+.roboto {
+    font-family: 'Roboto';
+}
+.poster {
+    background-image: url("../image/image-poster.png");
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

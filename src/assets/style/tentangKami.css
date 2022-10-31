@@ -1,0 +1,23 @@
+.img
+ {
+    background-image: url("../image/image-tentang-kami-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -27px;
+    padding-right: 20px;
+    width: 466.56px;
+    height: 364px;
+ }
+ .budayakan {
+   background-image: url("../image//tim.jpeg");
+   width: 1440px;
+   height: 410px;
+   background-size: contain;
+   background-repeat: no-repeat;
+ }
+ .poppins {
+  font-family: 'Poppins';
+ }
+.urbanist {
+  font-family: 'Urbanist';
+}

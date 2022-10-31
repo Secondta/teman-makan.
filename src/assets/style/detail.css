@@ -1,0 +1,218 @@
+.rectangel {
+    display: flex;
+    height: 105px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+
+.banjir {
+    width: 113px;
+    height: 105px;
+    background-image: url("../image/kebanjiran.jpeg");
+    background-size: cover;
+}
+
+.asrama {
+    width: 113px;
+    height: 105px;
+    background-image: url("../image/asrama.jpeg");
+    background-size: cover;
+}
+
+.od {
+    width: 113px;
+    height: 105px;
+    background-image: url("../image/od.jpg");
+    background-size: cover;
+}
+
+.cafe {
+    width: 113px;
+    height: 105px;
+    background-image: url("../image/cafe.jpg");
+    background-size: cover;
+}
+
+.inspect {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.fontt {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Poppins';
+    color: #FF7400;
+}
+
+.tgl {
+    font-weight: 400;
+    font-size: 12px;
+    float: right;
+    text-align: right;
+}
+
+.flexx {
+    display: flex;
+    height: 0px;
+    justify-content: space-between;
+}
+
+.rightcolumn {
+    width: 630px;
+    height: 295px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px 12px 0px 0px;
+}
+
+.kembar {
+    background-image: url("../image/kembar.jpeg");
+    background-size: cover;
+    border-radius: 12px 12px 0px 0px;
+    width: 630px;
+    height: 188px;
+}
+
+.rightcolumn .textt {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 24px;
+    left: 731px;
+    top: 533px;
+}
+
+.comunity {
+    font-weight: 500;
+    font-size: 12px;
+    color: #676767;
+}
+
+.comunity1 {
+    font-weight: 400;
+    font-size: 12px;
+    color: #676767;
+}
+
+.fle {
+    display: flex;
+}
+
+.rightcolumn1 {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    width: 630px;
+    height: auto;
+}
+
+.overview {
+    color: #FF7400;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+
+.textover1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    text-align: justify;
+    font-family: 'Urbanist';
+}
+
+.ser {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.but {
+    margin-top: 2px;
+    float: right;
+}
+
+.checkbox-dropdown {
+    width: 112px;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0 0 3px 3px lightgray;
+}
+
+.checkbox-dropdown:after {
+    content: '';
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 6px solid transparent;
+    border-top-color: #000;
+    top: 50%;
+    right: 10px;
+    margin-top: -3px;
+}
+
+.checkbox-dropdown.is-active:after {
+    border-bottom-color: #000;
+    border-top-color: #fff;
+}
+
+.checkbox-dropdown-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    border: inherit;
+    border-top: none;
+    left: -1px;
+    right: -1px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.is-active .checkbox-dropdown-list {
+    margin-top: 2px;
+    opacity: 1;
+
+    pointer-events: auto;
+
+}
+
+.checkbox-dropdown-list li .lab {
+    display: block;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+
+    transition: all 0.2s ease-out;
+}
+
+.checkbox-dropdown-list li .lab {
+    background-color: white;
+}
+
+.checkbox-dropdown-list li .labb {
+    background-color: white;
+}
+
+.checkbox-dropdown-list li .lab:hover {
+    background-color: #FFA242;
+    color: white;
+}
+
+
+.checkbox-dropdown-list li .labb {
+    display: block;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+
+    transition: all 0.2s ease-out;
+}
+.search {
+    box-shadow: 0 0 3px 3px lightgray;
+    border-radius: 0.5rem;
+
+}
+.poppins {
+    font-family: 'Poppins';
+}
+
+.roboto {
+    font-family: 'Roboto';
+}

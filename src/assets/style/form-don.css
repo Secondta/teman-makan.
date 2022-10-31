@@ -1,0 +1,20 @@
+.ff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input::file-selector-button {
+    font-weight: bold;
+    background-color: #FFA242;
+    color: white;
+    margin: 4px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input{
+    border: 1px solid gray;
+}

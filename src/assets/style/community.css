@@ -1,0 +1,43 @@
+.card1 {
+    background-image: url("../image/community.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 3px 3px #d3d3d3d3;
+}
+.card2 {
+    background-image: url("../image/community-1.jpeg");
+    background-size: cover;
+    height: 270px;
+    background-repeat: no-repeat;
+}
+.card3 {
+    background-image: url("../image/community-2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card4 {
+    background-image: url("../image/community-3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card1-content, .card2-content, .card3-content, .card4-content {
+    background-image: linear-gradient(to top, #FF7400, transparent);
+}
+.login-google {
+    box-shadow: 0px 0px 3px 3px #d3d3d3d3;
+}
+.sharing-card {
+    box-shadow: 0 0 3px 3px #d3d3d3d3;
+}
+.poppins {
+    font-family: 'Poppins';
+}
+.urbanist {
+    font-family: 'Urbanist';
+}
+.roboto {
+    font-family: 'Roboto';
+}
+ /* p {
+    color: #00000080;
+ } */

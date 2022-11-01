@@ -5,13 +5,13 @@
         </div>
 
         <div class="isi-2 mx-auto max-w-screen-xl mt-32">
-            <div class="grid grid-cols-3 gap-5 flex justify-center items-center">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5 flex justify-center items-center">
                 <div class="shadow-lg rounded-lg h-[300px] flex justify-center items-center">
                     <img src="../assets/image/univ.png" alt="Universitas Semarang" class="m-auto">
                 </div>
                 <div class="col-span-2 bg-[#FF7400] rounded-lg flex justify-center items-center p-10">
                     <div class="w-ful">
-                        <div class="flex flex-col items-center overflow-hidden rounded-lg md:flex-row md:max-w-xl">
+                        <div class="flex items-center overflow-hidden rounded-lg flex-row max-w-xl">
                             <img class="w-full w-[100px]" src="../assets/image/foto-1.png" alt="Foto">
                             <div class="flex flex-col h-[100px] w-full p-5 leading-normal bg-black">
                                 <h5 class="mb-2 text-normal text-white poppins">
@@ -22,7 +22,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex mt-5 ml-10 flex-col items-center overflow-hidden rounded-lg md:flex-row md:max-w-xl">
+                            class="flex mt-5 ml-10 items-center overflow-hidden rounded-lg flex-row max-w-xl">
                             <img class="w-full w-[100px]" src="../assets/image/foto-2.png" alt="aaa" />
                             <div class="flex flex-col h-[100px] w-full p-5 leading-normal bg-black">
                                 <h5 class="mb-2 text-normal text-white poppins">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grid mt-5 grid-cols-3 gap-5 flex justify-center items-center">
+            <div class="grid mt-5 grid-cols-1 md:grid-cols-3 gap-5 flex justify-center items-center">
                 <div class="shadow-lg rounded-lg h-[300px]">
                     <div class="h-1/2 flex justify-center items-center font-bold poppins">
                         <p class="judul-navbar">Teman Makan<span class="text-[#FF7400] text-4xl">.</span></p>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="col-span-2 bg-[#FF7400] rounded-lg flex justify-center items-center p-10">
                     <div class="w-ful">
-                        <div class="flex flex-col items-center overflow-hidden rounded-lg md:flex-row md:max-w-xl">
+                        <div class="flex items-center overflow-hidden rounded-lg flex-row max-w-xl">
                             <img class="w-full w-[100px]" src="../assets/image/foto-3.png" alt="Foto">
                             <div class="flex flex-col h-[100px] w-full p-5 leading-normal bg-black">
                                 <h5 class="mb-2 text-normal text-white poppins">
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex mt-5 ml-10 flex-col items-center overflow-hidden rounded-lg md:flex-row md:max-w-xl">
+                            class="flex mt-5 ml-10 items-center overflow-hidden rounded-lg flex-row max-w-xl">
                             <img class="w-full w-[100px]" src="../assets/image/foto-4.png" alt="aaa" />
                             <div class="flex flex-col h-[100px] w-full p-5 leading-normal bg-black">
                                 <h5 class="mb-2 text-normal text-white poppins">
@@ -73,7 +73,7 @@
         </div>
 
         <div class="styling w-full mx-auto max-w-screen-xl mt-10">
-            <div class="grid grid-cols-2 shadow-lg rounded-lg p-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 shadow-lg rounded-lg p-10">
                 <div>
                     <h1 class="text-[#FF7400] poppins text-4xl font-bold">Styling</h1>
                     <div class="mt-5">
@@ -280,7 +280,7 @@
                     </div>
                     <h1 class="text-[#FF7400] poppins text-4xl font-bold text-center mt-5">Receiver</h1>
                     <div class="urbanist text-justify">
-                        <span class="text-[#FF7400]">Receiver</span>Receiver mendaftarkan diri sebelum masuk
+                        <span class="text-[#FF7400]">Receiver</span> Receiver mendaftarkan diri sebelum masuk
                         aplikasi. Kemudian receiver akan di sediakan menu tampilan makanan dari giver untuk dapat
                         memilih makanan jenis apa yang di butuhkan.
                     </div>
@@ -357,13 +357,13 @@
             </div>
         </div>
 
-        <div class="budayakan mt-20 mx-auto max-w-screen-2xl">
+        <!-- <div class="budayakan mt-20 mx-auto max-w-screen-2xl">
             <div class="bg-[#ffa242b3] flex justify-center items-center w-[1440px] h-[410px]">
                 <div class="font-black text-white text-5xl poppins">
                     Budayakan #MAKANTANPASISA
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="daftar-pusaka mt-20 mx-auto max-w-screen-xl">
             <h1 class="text-[#FF7400] poppins text-4xl font-bold">Daftar <span class="font-normal">Pusaka</span></h1>

@@ -1,11 +1,11 @@
 <template>
-  <div class="m-8 relative block rounded-xl border border-gray-100 p-8 shadow-lg mx-auto max-w-screen-2xl">
+  <div class="m-8 relative p-8 mx-auto max-w-screen-2xl">
     <!-- item 1 -->
-    <div class="grid grid-cols-3 gap-4 mt-4 sm:pr-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-4 sm:pr-8">
       <div class="relative block rounded-xl border border-gray-100 p-8 shadow-lg hover:bg-orange-400 active:bg-orange-500 focus:outline-none focus:ring focus:ring-orange-300">
         <span class="absolute top-4 text-lg pr-2 py-3">Total Berbagi</span>
         <div class="py-8 content-center">
-          <h2 className="text-5xl">10.456<span class="text-[14px] my-auto">point</span></h2>
+          <h2 className="text-5xl">10.456<span class="text-[14px] my-auto">pointtt</span></h2>
           <p class="mt-2 hidden text-sm sm:block">
             Diperbaharui 1 jam yang lalu
           </p>
@@ -16,7 +16,7 @@
       </div>
       <div class="relative block rounded-xl border border-gray-100 p-8 shadow-lg hover:bg-orange-400 active:bg-orange-500 focus:outline-none focus:ring focus:ring-orange-300">
         <span class="absolute top-4 text-lg pr-2 py-3">Total Berbagi</span>
-        <div class="py-8 content-center">
+        <div class="py-8 content-center"> 
           <h2 className="text-5xl">10.456 <span class="text-[14px] my-auto">point</span></h2>
           <p class="mt-2 hidden text-sm sm:block">
             Diperbaharui 1 jam yang lalu
@@ -41,7 +41,7 @@
     </div>
     <!-- akhir item 1 -->
     <!-- item 2 -->
-    <div class="my-5 grid grid-cols-2 gap-2">
+    <div class="my-5 grid grid-cols-1 md:grid-cols-2 gap-2">
       <div class="block rounded-xl border border-gray-100 p-8 shadow-lg">
         <apexchart type="line" height="350" :options="chartOptions" :series="series"></apexchart>
       </div>

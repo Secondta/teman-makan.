@@ -2,7 +2,7 @@
     <div class="all-footer mx-auto max-w-screen-xl">
         <hr class="my-4 mx-auto h-[1px] bg-black rounded border-0">
         <div class="isi-footer p-10">
-            <div class="grid grid-cols-3">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                 <div>
                     <a class="block" href="/">
                         <p class="judul-footer poppins">Teman Makan<span class="text-[#FF7400] text-4xl">.</span></p>
@@ -33,12 +33,14 @@
             </div>
             <div class="w-full flex justify-between mt-[217px] urbanist">
                 <div>Copyright<span> Teman Makan<span class="text-[#FF7400] text-4xl poppins">.</span></span> 2022</div>
-                <div class="flex items-center gap-3">
-                    Follow Us
-                    <img src="../assets/image/instagram.png" alt="Instagram" class="h-[22px] w-[22px]">
-                    <img src="../assets/image/facebook.png" alt="facebook" class="h-[22px] w-[22px]">
-                    <img src="../assets/image/tiktok.png" alt="tiktok" class="h-[22px] w-[22px]">
-                    <img src="../assets/image/linkedIn.png" alt="linkedIn" class="h-[22px] w-[22px]">
+                <div class="block md:flex items-center text-center gap-3">
+                    <div>Follow Us</div>
+                    <div class="flex items-center gap-3">
+                        <img src="../assets/image/instagram.png" alt="Instagram" class="h-[22px] w-[22px]">
+                        <img src="../assets/image/facebook.png" alt="facebook" class="h-[22px] w-[22px]">
+                        <img src="../assets/image/tiktok.png" alt="tiktok" class="h-[22px] w-[22px]">
+                        <img src="../assets/image/linkedIn.png" alt="linkedIn" class="h-[22px] w-[22px]">
+                    </div>
                 </div>
             </div>
         </div>

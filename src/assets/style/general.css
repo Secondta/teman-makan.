@@ -1,6 +1,6 @@
-/* .button-utama{
+.button-utama{
     background: linear-gradient(180deg, #FF7400 0%, rgba(255, 160, 81, 0.5) 100%);
-} */
+}
 .button-utama:hover{
     background: transparent;
     color: #FF7400;

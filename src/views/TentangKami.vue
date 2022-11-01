@@ -93,11 +93,11 @@
         </h3>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-[16px]">
           <div
-            class="border-solid border-[0.5px] border-[#ff740080] rounded-[16px] h-[286px] p-[30px]"
+            class="border-solid border-[0.5px] border-[#ff740080] rounded-[16px] h-auto md:h-[286px] lg:h-[286px] p-[30px]"
           >
-            <div class="grid grid-cols-3">
-              <div>
-                <img src="../assets/image/food-slash.png" alt="food_slash" class="w-[145px] h-[138px]">
+            <div class="grid grid-cols-1 mx-auto text-center md:grid-cols-3">
+              <div class="w-full">
+                <img src="../assets/image/food-slash.png" alt="food_slash" class="w-[145px] h-[138px] mx-auto">
               </div>
               <div class="col-span-2">
                 <div class="text-[32px] font-[500] text-[#FF7400] poppins">
@@ -110,11 +110,11 @@
             </div>
           </div>
           <div
-            class="border-solid border-[0.5px] border-[#ff740080] rounded-[16px] h-[286px] p-[30px]"
+            class="border-solid border-[0.5px] border-[#ff740080] rounded-[16px] h-auto md:h-[286px] lg:h-[286px] p-[30px]"
           >
-            <div class="grid grid-cols-3">
-              <div>
-                <img src="../assets/image/like.png" alt="like" class="w-[145px] h-[138px]">
+            <div class="grid grid-cols-1 mx-auto text-center md:grid-cols-3">
+              <div class="w-full">
+                <img src="../assets/image/like.png" alt="like" class="w-[145px] h-[138px] mx-auto">
               </div>
               <div class="col-span-2">
                 <div class="text-[32px] font-[500] text-[#FF7400] poppins">
@@ -128,11 +128,11 @@
             </div>
           </div>
           <div
-            class="border-solid border-[0.5px] border-[#ff740080] rounded-[16px] h-[286px] p-[30px]"
+            class="border-solid border-[0.5px] border-[#ff740080] rounded-[16px] h-auto md:h-[286px] lg:h-[286px] p-[30px]"
           >
-            <div class="grid grid-cols-3">
-              <div>
-                <img src="../assets/image/hand-dollar.png" alt="hand_with_dollar" class="w-[145px] h-[138px]">
+            <div class="grid grid-cols-1 mx-auto text-center md:grid-cols-3">
+              <div class="w-full">
+                <img src="../assets/image/hand-dollar.png" alt="hand_with_dollar" class="w-[145px] h-[138px] mx-auto">
               </div>
               <div class="col-span-2">
                 <div class="text-[32px] font-[500] text-[#FF7400] poppins">
@@ -146,11 +146,11 @@
             </div>
           </div>
           <div
-            class="border-solid border-[0.5px] border-[#ff740080] rounded-[16px] h-[286px] p-[30px]"
+            class="border-solid border-[0.5px] border-[#ff740080] rounded-[16px] h-auto md:h-[286px] lg:h-[286px] p-[30px]"
           >
-            <div class="grid grid-cols-3">
-              <div>
-                <img src="../assets/image/users.png" alt="users" class="w-[145px] h-[138px]">
+            <div class="grid grid-cols-1 mx-auto text-center md:grid-cols-3">
+              <div class="w-full">
+                <img src="../assets/image/users.png" alt="users" class="w-[145px] h-[138px] mx-auto">
               </div>
               <div class="col-span-2">
                 <div class="text-[32px] font-[500] text-[#FF7400] poppins">
@@ -165,8 +165,8 @@
           </div>
         </div>
       </div>
-      <div class="flex mt-[128px] gap-[39px]">
-      <div class="w-[440px]">
+      <div class="grid grid-cols-1 md:grid-cols-2 mt-[128px] gap-[39px]">
+      <div>
         <div class="border-t-[3px] border-[#FF7400] w-[124px] text-[#FF7400] font-[500] pt-[16px] poppins">
           Tentang kami
         </div>
@@ -177,7 +177,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget eget faucibus at lacinia. Laoreet lacus, non erat sed lorem odio diam donec venenatis. Mauris vitae diam non scelerisque. Facilisis morbi ultricies blandit molestie nisl sit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget eget faucibus at lacinia. Laoreet lacus, non erat sed lorem odio diam donec venenatis. Mauris vitae diam non scelerisque. Facilisis morbi ultricies blandit molestie nisl sit.
         </div>
       </div>
-      <div class="w-[724px] flex gap-[8px]">
+      <div class="flex gap-[8px]">
         <div class="border border-solid border-[#ff740080] rounded-[16px] w-[236px] h-[480px]">
           <div class="mt-[56px] mb-[41px] mx-[73px] w-[90px] h-[90px]">
             <img src="../assets/image/leaf.png" alt="leaf">
@@ -211,13 +211,13 @@
       </div>
     </div>
     </div>
-    <div class="budayakan mt-20 mx-auto max-w-screen-2xl">
+    <!-- <div class="budayakan mt-20 mx-auto max-w-screen-2xl">
       <div class="bg-[#ffa242b3] flex justify-center items-center w-[1440px] h-[410px]">
         <div class="font-black text-white text-5xl poppins">
           Budayakan #MAKANTANPASISA
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

@@ -40,7 +40,7 @@
                         <div class="flex items-center gap-4">
                             <div class="sm:flex sm:gap-5 items-center">
                                 <button
-                                    class="button-utama w-40 py-3 text-white text-lg rounded-[16px] focus:border-4 border-yellow-300">Mari
+                                    class="hidden xl:block button-utama w-40 py-3 text-white text-lg rounded-[16px] focus:border-4 border-yellow-300">Mari
                                     Berbagi</button>
                                 <button  v-if="login === false"
                                     class="hidden xl:block button-utama-transparent w-40 py-3 text-lg rounded-[16px] focus:border-4 border-yellow-300">Login</button>

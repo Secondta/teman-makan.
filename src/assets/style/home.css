@@ -25,3 +25,16 @@
     background-size: cover;
     height: 598px;
 }
+
+@media only screen and (max-width: 600px) {
+    .card-article {
+        width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card-article {
+        width: 100%;
+        height: auto;
+    }
+}

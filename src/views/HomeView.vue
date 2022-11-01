@@ -216,7 +216,7 @@
     <!-- AKHIR KOMUNITAS -->
 
     <!-- AWAL DOKUMENTASI -->
-    <div class="dokumentasi w-full p-10 grid">
+    <div class="dokumentasi w-full p-10 grid grid-cols-1 md:grid-cols-2">
       <div class="m-auto hidden md:block">
         <div class="text-[65px] text-[#FF7400] poppins font-[700]">Dokumentasi</div>
         <div class="text-[65px] poppins font-[700]">Teman Makan<span class="text-[#FF7400] text-[70px]">.</span></div>
